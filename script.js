@@ -282,7 +282,7 @@ async function switchReality() {
     } else {
         document.body.classList.remove("truth-revealed")
         truthButton.querySelector("span").textContent =
-            "THE TRUTH"
+            "REVEAL THE TRUTH"
         revealPrompt.textContent =
             "There are things daylight makes easier to believe."
     }
